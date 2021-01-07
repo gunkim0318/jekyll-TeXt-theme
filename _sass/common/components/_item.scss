@@ -35,7 +35,7 @@ a > .item__header, a.item__header, .item__header > a {
 
 .item__description {
   &, .article__content {
-    font-size: map-get($base, font-size-sm);
+    font-size: map-get($base, font-size-xl);
     line-height: map-get($base, line-height);
     @include block-elements() {
       margin-top: map-get($spacers, 2);
@@ -92,7 +92,7 @@ a > .item__header, a.item__header, .item__header > a {
       padding-top: map-get($spacers, 4);
     }
     &:not(:last-child) {
-      padding-bottom: map-get($spacers, 4);
+      padding-bottom: map-get($spacers, 5);
       @include split-line(bottom);
     }
     list-style-type: none;
